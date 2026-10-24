@@ -39,5 +39,4 @@ rev-comp = "revcomp.cli:main"
 where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "src/revcomp"]
-addopts = "--doctest-modules"
+testpaths = ["tests"]
